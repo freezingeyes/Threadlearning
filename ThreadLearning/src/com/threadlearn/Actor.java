@@ -8,7 +8,7 @@ public class Actor extends Thread {
 			System.out.println(getName()+"正在演出"+count);
 			if(count	%10	==	0){
 					try {
-						Thread.sleep(1000);
+						Thread.sleep(100000);
 					} catch (InterruptedException e) {
 						e.printStackTrace();
 					}
